@@ -1,31 +1,27 @@
+let list = document.getElementById("theList");
+
 // ADDING ITEMS TO START AND END OF LIST
-// Get the <ul> element
 
-// ADD NEW ITEM TO END OF LIST
-// Create element
-// Create text node
-// Add text node to element
-// Add element end of list
+// Adding "cream" to the end of the list
+let element = document.createElement("li");
+let text = document.createTextNode("cream");
+element.appendChild(text);
+list.appendChild(element);
 
-// ADD NEW ITEM START OF LIST
-// Create element
-// Create text node
-// Add text node to element
-// Add element to list
+// Adding "spinach" to the end of the list
+element = document.createElement("li");
+text = document.createTextNode("spinach");
+element.appendChild(text);
+list.appendChild(element);
 
+// ADD NEW ITEM TO START OF LIST
+// Adding "apple" to the start of the list
+element = document.createElement("li");
+text = document.createTextNode("apple");
+element.appendChild(text);
 
+// Get the first <li> element in the list
+let firstListItem = list.firstChild;
 
-// All <li> elements
-
-// ADD A CLASS OF COOL TO ALL LIST ITEMS
-// Counter variable
-// Loop through elements
-// Change class to cool
-
-
-// ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
-// h2 element
-// h2 text
-// No. of <li> elements
-// Content
-// Update h2 using innerHTML (not textContent) because it contains markup
+// Insert the new item before the first item in the list
+list.insertBefore(element, firstListItem);
