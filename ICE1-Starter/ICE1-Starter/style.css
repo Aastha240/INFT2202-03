@@ -9,7 +9,7 @@ body {
 #page {
 	background-color: #403c3b;
 	margin: 0 auto 0 auto;}
-	/* Responsive page rules at bottom of style sheet */
+	
 
 h1 {
 	background-image: url(../images/kinglogo.png);
@@ -108,7 +108,7 @@ p {
 #scriptResults {
 	padding-bottom: 10px;}
 
-/* Small screen - acts like the app would */
+/*minimal screen that functions as the app would */
 @media only screen and (max-width: 500px) {
     body {
         background-color: #584f4d;
@@ -129,7 +129,7 @@ p {
         margin: 20px auto 20px auto;
     }
 }
-/* Larger screens act like a demo for the app */
+/* larger displays function as an app demo. */
 @media only screen and (min-width: 960px) {
     #page {
         max-width: 480px;
