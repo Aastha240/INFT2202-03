@@ -1,5 +1,11 @@
+//Name: aastha minahs
+//Date: 25th jan 2024
+//file: list.js
+//Description: we are adding 3 new items to the list in the below code.
+
+
 // Get the reference to the HTML list with the id "theList".
-let list = document.getElementById("theList");
+let list = document.getElementById("myList");
 
 // Adding items to the list's end and start.
 // Adding "Mango" to the end of the list.
