@@ -1,6 +1,6 @@
 //Aastha minhas
 //100859631
-//
+
 
 console.log('ajax_script.js loaded');
 
